@@ -1,0 +1,10 @@
+spring:
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+   datasource:
+      url: ${datasource.url}
+      username: ${datasource.username}
+      password: ${datasource.password}
+      driver-class-name: com.mysql.jdbc.Driver
